@@ -1,0 +1,30 @@
+.menu {
+  position: fixed;
+  transform: translateY(-110px);
+  background-color: #fff;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0.4);
+}
+
+.menu > div {
+  display: flex;
+}
+
+.link {
+  display: block;
+  padding: 20px 15px;
+}
+
+.link:hover {
+  background-color: rgb(38, 111, 180);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.cart {
+  transform: translateX(-30px);
+}
