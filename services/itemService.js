@@ -3,7 +3,7 @@ export async function getItems() {
   const items = await request.json();
   return items;
 }
-
+//checkpoint
 export async function getLatestItems() {
   const items = await getItems();
   return items.slice(0, 3);
